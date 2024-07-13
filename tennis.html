@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../WARRIOR-COLOSSEUM/styles/activites.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation" class="nav-container">
+            <div class="site-name">WARRIOR COLOSSEUM<span class="highlight"> SPORTS CENTER</span></div>
+            <ul class="nav-links">
+                <li><a href="../WARRIOR-COLOSSEUM/accueil.html">Accueil</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/football.html">Football</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/basket.html">Basketball</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/tennis.html">Tennis</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/piscine.html">Piscine</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/gym.html">Gym</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/resto.html">Restaurant</a></li>
+            </ul>
+            <a href="#" class="sign-in">Sign Up</a>
+            <button class="nav-toggle" aria-label="Toggle Navigation Menu">Menu</button>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="hero">
+            <video autoplay muted loop>
+                <source src="../WARRIOR-COLOSSEUM/images/tennis.mp4" type="video/mp4">
+            </video>            
+            <h1>TENNIS</h1>
+        </section>
+        <section class="presentation">
+            <div class="content">
+                <h1>Bienvenue sur nos terrains de tennis</h1>
+                <p>L'endroit idéal pour pratiquer votre sport favori dans des conditions optimales. Nos installations comprennent des courts en dur et en terre battue, parfaitement entretenus pour garantir une expérience de jeu exceptionnelle. Que vous soyez débutant, joueur confirmé ou compétiteur, nos terrains sont adaptés à tous les niveaux de jeu. Profitez de nos services d'entraînement personnalisés avec des coachs professionnels, participez à nos tournois réguliers ou réservez simplement un court pour un match amical. Nos éclairages de qualité permettent également de jouer en soirée, ajoutant à la flexibilité de votre emploi du temps. Rejoignez-nous pour améliorer votre technique, votre endurance et votre plaisir de jouer au tennis dans un environnement convivial et stimulant.</p>
+            </div>
+            <div class="content">
+                <h2>nos activités et programmes</h2>
+                <p>Cours pour débutants</p>
+                <p>Entrainements et stages</p>
+                <p>Matchs amicaux et compétitifs</p>
+                <p>Sessions libres</p>
+                <p>Tennis adapté</p>
+            </div>
+        </section>
+        <section class="tarifs_feedback">
+            <div class="tarifs-box">
+                <h2>Tarifs</h2>
+                <table>
+                    <tr>
+                    <th>Programme</th>
+                     <th>Prix</th>
+                    </tr>
+                    <tr>
+                     <td>Cours pour débutants</td>
+                     <td>50$</td>
+                    </tr>
+                    <tr>
+                     <td>Entraînements et stages</td>
+                     <td>100$</td>
+                    </tr>
+                    <tr>
+                     <td>Matchs amicaux et compétitifs</td>
+                     <td>75$</td>
+                    </tr>
+                    <tr>
+                     <td>Sessions libres</td>
+                     <td>120$</td>
+                    </tr>
+                    <tr>
+                     <td>Tennis adapté</td>
+                     <td>65$</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback-box">
+                <h2>Témoignages</h2>
+                <blockquote>
+                  "Prenez votre raquette et n'hésitez pas a venir."
+                  <cite>- Jack Sparrow</cite>
+                </blockquote>
+                <blockquote>
+                  "Les terrains de gazon sont parfaits, on se croirait a Wimbledon."
+                 <cite>- Peter Parker</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <h3>ACTIVITÉS</h3>
+            <ul>
+                <li><a href="#">Index des activités (catalogue en preparation)</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/basket.html">Activité en vedette</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>RESSOURCES</h3>
+            <ul>
+                <li><a href="../WARRIOR-COLOSSEUM/map.html">Services</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/inscription.html">Formulaire d'inscription</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>À PROPOS</h3>
+            <ul>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('nav-links-active');
+        });
+    </script>
+</body>
+</html>

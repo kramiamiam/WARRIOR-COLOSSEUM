@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../WARRIOR-COLOSSEUM/styles/activites.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation" class="nav-container">
+            <div class="site-name">WARRIOR COLOSSEUM<span class="highlight"> SPORTS CENTER</span></div>
+            <ul class="nav-links">
+                <li><a href="../WARRIOR-COLOSSEUM/accueil.html">Accueil</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/football.html">Football</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/basket.html">Basketball</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/tennis.html">Tennis</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/piscine.html">Piscine</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/gym.html">Gym</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/resto.html">Restaurant</a></li>
+            </ul>
+            <a href="#" class="sign-in">Sign Up</a>
+            <button class="nav-toggle" aria-label="Toggle Navigation Menu">Menu</button>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="hero">
+            <video autoplay muted loop>
+                <source src="../WARRIOR-COLOSSEUM/images/resto.mp4" type="video/mp4">
+            </video>            
+            <h1>RESTAURANT</h1>
+        </section>
+        <section class="presentation">
+            <div class="content">
+                <h1>Bienvenue dans Notre Notre Restaurant</h1>
+                <p>Découvrez notre restaurant santé, un lieu où la nutrition équilibrée et le plaisir gustatif se rencontrent harmonieusement. Nous sommes fiers de vous offrir un menu riche en options saines, savoureuses et nutritives, élaboré par nos chefs experts en collaboration avec des nutritionnistes. Que vous recherchiez des plats végétariens, véganes, sans gluten ou simplement équilibrés, notre restaurant répond à toutes vos attentes. Utilisant des ingrédients frais, locaux et biologiques, chaque repas est conçu pour vous aider à atteindre vos objectifs de bien-être tout en ravissant vos papilles. Venez déguster des salades créatives, des smoothies revitalisants, des plats principaux savoureux et des desserts légers dans une ambiance conviviale et accueillante. Faites de chaque repas une étape vers une vie plus saine.</p>
+            </div>
+            <div class="content">
+                <h2>Heures d'ouverture</h2>
+                <p>Nous sommes ouverts du lundi au vendredi de 8:00 a 22:00.</p>
+            </div>
+        </section>
+        <section class="tarifs_feedback">
+            <div class="tarifs-box">
+                <h2>Plats en vedette</h2>
+                <table>
+                    <tr>
+                    <th>Plat</th>
+                     <th>Prix</th>
+                    </tr>
+                    <tr>
+                     <td>Salade Quinoa et Avocat</td>
+                     <td>12$</td>
+                    </tr>
+                    <tr>
+                     <td>Poulet Grillé et Légumes Vapeur</td>
+                     <td>15$</td>
+                    </tr>
+                    <tr>
+                     <td>Bowl de Saumon et Riz Brun</td>
+                     <td>18$</td>
+                    </tr>
+                    <tr>
+                     <td>Wrap Végétarien aux Falafels</td>
+                     <td>10$</td>
+                    </tr>
+                    <tr>
+                     <td>Smoothie Bowl aux Fruits et Granola</td>
+                     <td>8$</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="feedback-box">
+                <h2>Témoignages</h2>
+                <blockquote>
+                  "Succulent et healthy."
+                  <cite>- Grace Bond</cite>
+                </blockquote>
+                <blockquote>
+                  "Je suis amoureuse de la salade Quinoa!"
+                 <cite>- Meyssem Checkmen</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <h3>ACTIVITÉS</h3>
+            <ul>
+                <li><a href="#">Index des activités (catalogue en preparation)</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/basket.html">Activité en vedette</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>RESSOURCES</h3>
+            <ul>
+                <li><a href="../WARRIOR-COLOSSEUM/map.html">Services</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/inscription.html">Formulaire d'inscription</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>À PROPOS</h3>
+            <ul>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('nav-links-active');
+        });
+    </script>
+</body>
+</html>
