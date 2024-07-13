@@ -1,1 +1,2 @@
 # WARRIOR-COLOSSEUM
+#Ceci est le site web d'informations d'un complexe sportif fictif nommé Warrior Colosseum. Il y a une page d'accueil qui présente le complexe et énumére les activités disponibles, chaque activité a un page de présentation détaillée avec une animation (video) pour illustrer. IL y'a aussi une page formulaire pour s'inscrire et la page de confirmation liée a elle. Enfin il y'a une page de services qui contient le plan fictif du complexe et les informations necessaire de recrutement pour integrer le staff du complexe.
