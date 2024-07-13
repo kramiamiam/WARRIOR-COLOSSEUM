@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../WARRIOR-COLOSSEUM/styles/inscription.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation" class="nav-container">
+            <div class="site-name">WARRIOR COLOSSEUM<span class="highlight"> SPORTS CENTER</span></div>
+            <ul class="nav-links">
+                <li><a href="../WARRIOR-COLOSSEUM/accueil.html">Accueil</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/football.html">Football</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/basket.html">Basketball</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/tennis.html">Tennis</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/piscine.html">Piscine</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/gym.html">Gym</a></li>
+                <li><a href="../WARRIOR-COLOSSEUM/resto.html">Restaurant</a></li>
+            </ul>
+            <a href="#" class="sign-in">Sign Up</a>
+            <button class="nav-toggle" aria-label="Toggle Navigation Menu">Menu</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form id="signup-form" action="traitement.php" method="POST">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="motdepasse">Mot de passe :</label>
+                    <input type="password" id="motdepasse" name="motdepasse" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmation">Confirmation du mot de passe :</label>
+                    <input type="password" id="confirmation" name="confirmation" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Je m'inscris !</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <h3>À PROPOS DE VOUS !</h3>
+            <p>Nous nous engageons à protéger vos données personnelles et à maintenir la confiance que vous nous accordez. Pour plus d'informations sur notre politique de confidentialité et sur la manière dont nous traitons vos données.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('nav-links-active');
+        });
+
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'inscrit.html';
+        });
+    </script>
+</body>
+</html>
